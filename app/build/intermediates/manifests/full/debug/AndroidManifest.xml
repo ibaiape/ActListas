@@ -28,6 +28,7 @@
         </activity>
         <activity android:name="com.example.dm2.actlistas.Ejercicio2" />
         <activity android:name="com.example.dm2.actlistas.Ejercicio1" />
+        <activity android:name="com.example.dm2.actlistas.Ejercicio3" />
     </application>
 
 </manifest>

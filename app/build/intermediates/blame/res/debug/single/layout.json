@@ -20,6 +20,10 @@
         "source": "C:\\Users\\dm2\\.android\\build-cache\\3db47e77b0fb1be942ece9cac70a0dc25dc9687b\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ejercicio3.xml",
+        "source": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\src\\main\\res\\layout\\activity_ejercicio3.xml"
+    },
+    {
         "merged": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\dm2\\.android\\build-cache\\3db47e77b0fb1be942ece9cac70a0dc25dc9687b\\output\\res\\layout\\notification_template_media.xml"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ejercicio2.xml",
         "source": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\src\\main\\res\\layout\\activity_ejercicio2.xml"
+    },
+    {
+        "merged": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_valores.xml",
+        "source": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\src\\main\\res\\layout\\listitem_valores.xml"
     },
     {
         "merged": "C:\\Users\\dm2\\AndroidStudioProjects\\ActListas\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

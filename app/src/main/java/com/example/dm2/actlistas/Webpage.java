@@ -1,9 +1,5 @@
 package com.example.dm2.actlistas;
 
-/**
- * Created by dm2 on 20/10/2017.
- */
-
 public class Webpage {
     private String nombre,link,descripcion;
     private int imagen;

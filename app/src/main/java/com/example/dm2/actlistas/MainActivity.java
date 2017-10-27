@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Ejer2);
     }
 
+    public void ejercicio3(View v){
+        Intent Ejer3 = new Intent(MainActivity.this, Ejercicio3.class);
+        startActivity(Ejer3);
+    }
+
 }

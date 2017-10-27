@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidMani
 		INJECTED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dm2\.android\build-cache\3db47e77b0fb1be942ece9cac70a0dc25dc9687b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dm2\.android\build-cache\4127319078183005cc5ab7ed53f2ef18bc415d39\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dm2\.android\build-cache\c88b81bc91bfc1b0596d114618cf06965b116112\output\AndroidManifest.xml:29:5-20
@@ -56,9 +56,13 @@ ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:19:19-45
 activity#com.example.dm2.actlistas.Ejercicio1
-ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:20:9-57
+ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:20:9-48
 	android:name
 		ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:20:19-45
+activity#com.example.dm2.actlistas.Ejercicio3
+ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml:21:19-45
 uses-sdk
 INJECTED from C:\Users\dm2\AndroidStudioProjects\ActListas\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dm2\.android\build-cache\3db47e77b0fb1be942ece9cac70a0dc25dc9687b\output\AndroidManifest.xml:21:5-23:78
