@@ -2,6 +2,7 @@ package com.example.dm2.actlistas;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,8 +17,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 public class Ejercicio3 extends AppCompatActivity {
-    private ItemLista[] datoss =
-            new ItemLista[]{new ItemLista("Primero"), new ItemLista("Segundo"), new ItemLista("Tercero")};
+    private int[] colores =  {Color.WHITE, Color.RED, Color.GREEN, Color.YELLOW, Color.BLUE, Color.GRAY};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class Ejercicio3 extends AppCompatActivity {
         setContentView(R.layout.activity_ejercicio3);
 
         final String[] datosLista = new String[] {"Primero","Segundo","Tercero"};
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datosLista);
+        ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, datosLista);
         ListView lstOpciones2 = (ListView)findViewById(R.id.lstOpciones2);
         lstOpciones2.setAdapter(adaptador);
         lstOpciones2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -36,8 +36,8 @@ public class Ejercicio3 extends AppCompatActivity {
         });
 
         Spinner cmbOpciones2 =(Spinner) findViewById(R.id.cmbOpciones2);
-        final String[] datosSpinner = new String[] {"España", "Portugal", "Francia", "Reino Unido", "Alemania"};
-        adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, datosSpinner);
+        final String[] datosSpinner = new String[] {"Blanco", "Rojo", "Verde", "Amarillo", "Azul", "Gris"};
+        adaptador = new ArrayAdapter<>(this,android.R.layout.simple_spinner_item, datosSpinner);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         cmbOpciones2.setAdapter(adaptador);
 
@@ -45,11 +45,11 @@ public class Ejercicio3 extends AppCompatActivity {
                 new AdapterView.OnItemSelectedListener(){
                     @Override
                     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                        ((TextView)findViewById(R.id.lblElegido)).setBackgroundColor();
+                        findViewById(R.id.lblElegido).setBackgroundColor(colores[i]);
                     }
                     @Override
                     public void onNothingSelected(AdapterView<?> adapterView) {
-                        lblOpcionSeleccionada.setText("No se ha realizado ninguna selección");
+                        ((TextView)findViewById(R.id.lblElegido)).setText("No se ha realizado ninguna selección");
                     }
                 }
         );
